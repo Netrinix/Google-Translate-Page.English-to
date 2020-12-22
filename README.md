@@ -1,6 +1,10 @@
 # <center>Google Translate Page</center>
 [Google.com](https://google.com) 是世界上访问数最多的网站，那么 [translate.google.cn](https://translate.google.cn) 就是Google翻译了，此 Repository 是调用 Google Translate API 来翻译整个网页。
 # 代码
+## 网页翻译为汉语(Translate Page To Chinese)
+```html
+<a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Czh-CN', 'English_to_Chinese', 'resizable,scrollbars,status'))">网页翻译为汉语(Translate Page To Chinese)</a>
+```
 ## 网页翻译为德语(Translate Page To German)
 ```html
 <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Cde', 'English_to_German', 'resizable,scrollbars,status'))">网页翻译为德语(Translate Page To German)</a>
@@ -29,10 +33,7 @@
 ```html
 <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Cpt', 'English_to_Portuguese', 'resizable,scrollbars,status'))">网页翻译为葡萄牙语(Translate Page To Portuguese)</a>
 ```
-## 网页翻译为汉语(Translate Page To Chinese)
-```html
-<a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Czh-CN', 'English_to_Chinese', 'resizable,scrollbars,status'))">网页翻译为汉语(Translate Page To Chinese)</a>
-```
+
 ## 网页翻译为俄罗斯语(Translate Page To Russian)
 ```html
 <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Cru', 'English_to_Russian', 'resizable,scrollbars,status'))">网页翻译为俄罗斯语(Translate Page To Russian)</a>
